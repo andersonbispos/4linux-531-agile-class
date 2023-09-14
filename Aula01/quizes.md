@@ -8,4 +8,4 @@
 **O Terraform pode ser executado em Windows ou Linux, mas requer uma versão Server do sistema operacional Windows.**
 
 1. verdadeiro
-2. Falso
+2. **Falso**
