@@ -11,3 +11,16 @@
 1. **terraform init**
 1. terraform plan
 1. terraform workspace
+
+**Qual é o provider deste recurso fictício?**
+
+```
+resource "aws_vpc" "main" {
+    name = "test"
+}
+```
+
+1. vpc
+1. main
+1. aws
+1. test
