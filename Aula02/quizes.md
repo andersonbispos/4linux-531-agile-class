@@ -28,7 +28,12 @@ resource "aws_vpc" "main" {
 **Quais são as duas etapas necessárias para provisionar nova infraestrutura no fluxo de trabalho do Terraform? (Escolha dois.)**
 
 1. Destroy
-1. Apply
+1. **Apply**
 1. Import
-1. Init
+1. **Init**
 1. Validate
+
+**terraform init inicializa um arquivo main.tf de amostra no diretório atual.**
+
+1. Verdadeiro
+1. Falso
