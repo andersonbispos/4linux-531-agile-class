@@ -8,6 +8,6 @@
 **Qual comando o Terraform requer na primeira vez que você o executa em um diretório de configuração?**
 
 1. terraform import
-1. terraform init
+1. **terraform init**
 1. terraform plan
 1. terraform workspace
