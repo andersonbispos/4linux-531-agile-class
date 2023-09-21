@@ -1,3 +1,11 @@
 write .tf -> terraform init -> terraform plan -> terraform apply ~> terraform destroy
 
 sed -i 's/projeto-teste/labs-terraform-8476/' vpc.tf
+
+https://cloud.google.com/sdk/docs/install#mac
+
+gcloud init --console-only --skip-diagnostics
+
+gcloud compute instances list
+
+gcloud auth application-default login
