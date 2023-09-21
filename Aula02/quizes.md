@@ -22,5 +22,13 @@ resource "aws_vpc" "main" {
 
 1. vpc
 1. main
-1. aws
+1. **aws**
 1. test
+
+**Quais são as duas etapas necessárias para provisionar nova infraestrutura no fluxo de trabalho do Terraform? (Escolha dois.)**
+
+1. Destroy
+1. Apply
+1. Import
+1. Init
+1. Validate
