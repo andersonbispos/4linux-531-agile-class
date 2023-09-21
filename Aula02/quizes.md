@@ -36,4 +36,11 @@ resource "aws_vpc" "main" {
 **terraform init inicializa um arquivo main.tf de amostra no diretório atual.**
 
 1. Verdadeiro
-1. Falso
+1. **Falso**
+
+**Qual tarefa o terraform init não executa?**
+
+1. Busca todos os providers presentes na configuração e garante que eles sejam baixados e disponibilizados localmente
+1. Inicia ou conecta-se ao backend
+1. Busca quaisquer módulos e copia a configuração localmente
+1. Valida que todas as variáveis obrigatórias estão presentes
