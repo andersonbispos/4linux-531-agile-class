@@ -16,12 +16,12 @@
 1. Os providers podem ser mantidos por uma comunidade de usuários
 1. Alguns providers são mantidos pela HashiCorp
 1. Os principais fornecedores de nuvem e não-nuvem podem escrever, manter ou colaborar em providers Terraform
-1. Nenhuma das acima
+1. **Nenhuma das acima**
 
 **The terraform.tfstate file always matches your currently built infrastructure.**
 
 1. True
-1. False
+1. **False**
 
 **What is the name assigned by Terraform to reference this resource?**
 
@@ -32,7 +32,7 @@ resource "azurerm_resource_group" "dev" {
 }
 ```
 
-1. dev
+1. **dev**
 1. azurerm_resource_group
 1. azurerm
 1. test
