@@ -40,6 +40,6 @@ resource "azurerm_resource_group" "dev" {
 **You have provisioned some virtual machines (VMs) on Google Cloud Platform (GCP) using the gcloud command line tool. However, you are standardizing with Terraform and want to manage these VMs using Terraform instead. What are the two things you must do to achieve this? (Choose two.)**
 
 1. Provision new VMs using Terraform with the same VM names
-1. Use the terraform import command for the existing VMs
-1. Write Terraform configuration for the existing VMs
+1. **Use the terraform import command for the existing VMs**
+1. **Write Terraform configuration for the existing VMs**
 1. Run the terraform import-gcp command
