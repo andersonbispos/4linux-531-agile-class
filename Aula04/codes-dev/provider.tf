@@ -8,7 +8,7 @@ terraform {
 
   backend "gcs" {
     bucket = "trfm-8476-aulas-state"
-    prefix = "terraform/state-prod"
+    prefix = "terraform/state-dev"
   }
 
 }

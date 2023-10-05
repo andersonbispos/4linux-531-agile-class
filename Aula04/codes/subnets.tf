@@ -1,20 +1,19 @@
-
 resource "google_compute_subnetwork" "subnet1" {
-  ip_cidr_range = "10.10.10.0/24"
+  network = google_compute_network.vpc.self_link
 
-  name    = "subnet1"
-  network = google_compute_network.vpc_terraform_lab.self_link
+  name          = format("%s-%s", var.vpc_name, var.subnet1_region)
 
-  region = "southamerica-east1"
+  ip_cidr_range = var.subnet1_cidr
+  region        = var.subnet1_region
+
 }
 
 resource "google_compute_subnetwork" "subnet2" {
 
-  ip_cidr_range = "10.10.20.0/24"
+  network = google_compute_network.vpc.self_link
 
-  name    = "subnet2"
-  network = google_compute_network.vpc_terraform_lab.self_link
+  name          = format("%s-%s", var.vpc_name, var.subnet2_region)
 
-  region = "us-central1"
-
+  ip_cidr_range = var.subnet2_cidr
+  region        = var.subnet2_region
 }
